@@ -1,20 +1,28 @@
-img{
+*{
+    margin:0;/*margem*/
+    padding: 0;/*espaçamento interno*/
+}
+
+img{/*estilo tag imagem*/
     height: 92px;/*altura*/
 }
-a{
+a{/*tag link/ancora*/
     text-decoration: none;/*decoração de texto*/
-    color: #1f1f1f;
+    color: #1f1f1f;/*cor do texto*/
     font-size: 13px;/*tamanho fonte*/
     font-family: sans-serif;/*tipo/familia*/
 }
 .icone-produtos{
     width: 24px;/*largura*/
-    fill: #444746;/*preenchimento*/
+    fill: #444746;/*cor preenchimento*/
 }
 .botao-login{
     background-color: #1a73e8;/*cor de plano de fundo*/
-    color: white;
+    color: white;/*cor da fonte/texto*/
     padding: 13px 12px;/*espaçamento interno*/
-    font-weight: 500px;
-    border-radius: 40px;
+    font-weight: 500px;/*/peso da fonte*/
+    border-radius: 40px;/*raio ds borda*/
 } 
+footer{/*seletor da tag footer/rodapé*/
+    background-color: #f2f2f2;/*cor de fundo*/
+}
