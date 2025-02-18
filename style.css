@@ -1,6 +1,8 @@
 *{
     margin:0;/*margem*/
     padding: 0;/*espaçamento interno*/
+   font-family: Arial, sans-serif;
+   font-size: 13px;/*tamanho da font*/
 }
 
 img{/*estilo tag imagem*/
@@ -25,4 +27,10 @@ a{/*tag link/ancora*/
 } 
 footer{/*seletor da tag footer/rodapé*/
     background-color: #f2f2f2;/*cor de fundo*/
+}
+.caixa-rodape{
+padding: 15px 30px;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0 /*borda inferior*/;
 }
