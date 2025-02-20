@@ -14,17 +14,47 @@ a{/*tag link/ancora*/
     font-size: 13px;/*tamanho fonte*/
     font-family: sans-serif;/*tipo/familia*/
 }
-.icone-produtos{
-    width: 24px;/*largura*/
-    fill: #444746;/*cor preenchimento*/
+/*main*/
+.caixa-pesquisa{
+    display: flex;
+    width: 586px /*largura*/;
+    padding: 10px 14px;/*espaçamento interno*/
+    align-self: center;/*alinhar itens ao centro*/
+    gap: 13px ;/*espaçamento entre os elementos filhos*/
+    border: 1px solid #dfe1e5;/*borda*/
+    border-radius: 100px;/*raio da borda*/
 }
-.botao-login{
-    background-color: #1a73e8;/*cor de plano de fundo*/
-    color: white;/*cor da fonte/texto*/
-    padding: 13px 12px;/*espaçamento interno*/
-    font-weight: 500px;/*/peso da fonte*/
-    border-radius: 40px;/*raio ds borda*/
-} 
+.caixa-icones{
+    display: flex;
+    align-items: center;/*alinhado da vertical*/
+    gap: 16px;/*espaçamento entre os itens*/
+}
+.input-pesquisa{
+    width: 100%;/*ocupar 100% da larguradisponivel*/
+    border: none;/*borda nenhuma*/
+    outline: none;/*sombreamento quando selecionado nenhum*/
+}
+.icone-lupa{
+    width: 20px ;/*largura*/
+    fill: #9aa0a6;/*preenchimento*/
+}
+.icone-teclado{
+    width: 16px;/*largura*/
+    height: 12px;/*altura*/
+}
+.icone-colorido {
+    width: 24px;/*largura*/
+}
+
+
+
+
+
+/*rodapé*/
+.caixa-links{
+    display: flex;
+    gap: 30px; /*espaçamento entre os itens da div caixa-links*/
+ }
 footer{/*seletor da tag footer/rodapé*/
     background-color: #f2f2f2;/*cor de fundo*/
 }
@@ -34,8 +64,9 @@ display: flex;
 justify-content: space-between;
 }
 .caixa-rodape--borda{
-    border-bottom: 1px solid #dadce0 /*borda inferior*/;
+    border-bottom: 1px solid #dadce0 ;/*borda inferior*/
 }
+/*cabeçalho*/
 header{
     display: flex;
     justify-content: flex-end;
@@ -45,7 +76,15 @@ header{
     padding: 10px 14px;
     padding: 10px 14px;
 }
- .caixa-links{
-    display: flex;
-    gap: 30px /*espaçamento entre os itens da div caixa-links*/;
- }
+.botao-login{
+    background-color: #1a73e8;/*cor de plano de fundo*/
+    color: white;/*cor da fonte/texto*/
+    padding: 13px 12px;/*espaçamento interno*/
+    font-weight: 500px;/*/peso da fonte*/
+    border-radius: 40px;/*raio ds borda*/
+}
+.icone-produtos{
+    width: 24px;/*largura*/
+    fill: #444746;/*cor preenchimento*/
+}
+ 
